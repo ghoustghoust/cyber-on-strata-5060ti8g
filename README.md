@@ -87,6 +87,8 @@ pip install jinja2 regex psutil pillow
 
 **产物验收**（[logs/pelican_bicycle.svg](logs/pelican_bicycle.svg)）：
 
+![鹈鹕骑车动画（模型实际输出的 SVG 渲染为 GIF）](docs/screenshots/pelican_bicycle.gif)
+
 - ✅ `<animateTransform>` 共 **6 处**：车轮 `rotate` 旋转、腿部蹬踏 `rotate` + 身体 `translate` 补偿
 - ✅ 鹈鹕真实特征结构齐全：`billF`（喙）、`pouchF`（喉囊）、`wingF`（翅）、`legF`（腿）、`bodyF`
 - ✅ 天空/身体渐变着色，800×600 完整画幅，代码一次成型
