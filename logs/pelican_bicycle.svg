@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Segoe UI, sans-serif">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="25%" r="90%">
+      <stop offset="0%" stop-color="#dff3ff"/>
+      <stop offset="60%" stop-color="#a9d8f2"/>
+      <stop offset="100%" stop-color="#7bbce0"/>
+    </radialGradient>
+    <linearGradient id="bodyF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d9dfe4"/>
+    </linearGradient>
+    <linearGradient id="wingF" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2f4f6"/>
+      <stop offset="100%" stop-color="#b9c2ca"/>
+    </linearGradient>
+    <linearGradient id="billF" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6b24c"/>
+      <stop offset="100%" stop-color="#e28f1f"/>
+    </linearGradient>
+    <linearGradient id="pouchF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4a742"/>
+      <stop offset="100%" stop-color="#d97a26"/>
+    </linearGradient>
+    <linearGradient id="legF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0c07e"/>
+      <stop offset="100%" stop-color="#e09a46"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#sky)"/>
+  <ellipse cx="400" cy="560" rx="470" ry="60" fill="#8fc063" opacity="0.7"/>
+  <g fill="#ffffff" opacity="0.75">
+    <ellipse cx="150" cy="90" rx="55" ry="20"/>
+    <ellipse cx="205" cy="82" rx="40" ry="16"/>
+    <ellipse cx="640" cy="120" rx="60" ry="22"/>
+    <ellipse cx="690" cy="112" rx="38" ry="15"/>
+  </g>
+  <!-- REAR WHEEL -->
+  <g>
+    <circle cx="250" cy="450" r="88" fill="none" stroke="#202225" stroke-width="10"/>
+    <circle cx="250" cy="450" r="82" fill="none" stroke="#4a4f55" stroke-width="4"/>
+    <g stroke="#9aa0a6" stroke-width="2.4">
+      <line x1="250" y1="450" x2="250" y2="366"/>
+      <line x1="250" y1="450" x2="323" y2="400"/>
+      <line x1="250" y1="450" x2="334" y2="450"/>
+      <line x1="250" y1="450" x2="323" y2="500"/>
+      <line x1="250" y1="450" x2="250" y2="534"/>
+      <line x1="250" y1="450" x2="177" y2="500"/>
+      <line x1="250" y1="450" x2="166" y2="450"/>
+      <line x1="250" y1="450" x2="177" y2="400"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 250 450" to="360 250 450" dur="0.9s" repeatCount="indefinite"/>
+    </g>
+    <circle cx="250" cy="450" r="8" fill="#33373c"/>
+    <circle cx="250" cy="450" r="3" fill="#8a9099"/>
+  </g>
+  <!-- FRONT WHEEL -->
+  <g>
+    <circle cx="560" cy="450" r="88" fill="none" stroke="#202225" stroke-width="10"/>
+    <circle cx="560" cy="450" r="82" fill="none" stroke="#4a4f55" stroke-width="4"/>
+    <g stroke="#9aa0a6" stroke-width="2.4">
+      <line x1="560" y1="450" x2="560" y2="366"/>
+      <line x1="560" y1="450" x2="633" y2="400"/>
+      <line x1="560" y1="450" x2="644" y2="450"/>
+      <line x1="560" y1="450" x2="633" y2="500"/>
+      <line x1="560" y1="450" x2="560" y2="534"/>
+      <line x1="560" y1="450" x2="487" y2="500"/>
+      <line x1="560" y1="450" x2="476" y2="450"/>
+      <line x1="560" y1="450" x2="487" y2="400"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 560 450" to="360 560 450" dur="0.9s" repeatCount="indefinite"/>
+    </g>
+    <circle cx="560" cy="450" r="8" fill="#33373c"/>
+    <circle cx="560" cy="450" r="3" fill="#8a9099"/>
+  </g>
+  <!-- PEDAL CRANK -->
+  <g>
+    <circle cx="405" cy="455" r="16" fill="#2f3338"/>
+    <g>
+      <line x1="405" y1="455" x2="405" y2="415" stroke="#3a3f45" stroke-width="7"/>
+      <line x1="405" y1="455" x2="405" y2="495" stroke="#3a3f45" stroke-width="7"/>
+      <rect x="390" y="405" width="30" height="12" rx="3" fill="#20242a"/>
+      <rect x="390" y="488" width="30" height="12" rx="3" fill="#20242a"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 405 455" to="360 405 455" dur="0.9s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <!-- FRAME -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#d23b3b" stroke-width="9" fill="none">
+      <line x1="250" y1="450" x2="405" y2="455"/>
+      <line x1="405" y1="455" x2="372" y2="352"/>
+      <line x1="372" y1="352" x2="470" y2="352"/>
+      <line x1="405" y1="455" x2="470" y2="352"/>
+      <line x1="250" y1="450" x2="372" y2="352"/>
+      <line x1="470" y1="352" x2="500" y2="395"/>
+      <line x1="500" y1="395" x2="560" y2="450"/>
+      <line x1="470" y1="352" x2="478" y2="320"/>
+      <line x1="478" y1="320" x2="512" y2="312" stroke="#2f3338" stroke-width="8"/>
+    </g>
+    <path d="M352 346 q20 -8 40 0 l-6 8 q-14 -4 -28 0 z" fill="#26282c"/>
+    <circle cx="512" cy="312" r="6" fill="#26282c"/>
+  </g>
+  <!-- LEFT LEG (behind) -->
+  <g transform="translate(372 340)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="4.4; -0.95; -18.4; -29.8; -28.3; -18.4; -2.5; 4.4"
+      keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;1"
+      dur="0.9s" repeatCount="indefinite" additive="sum"/>
+    <line x1="0" y1="0" x2="6" y2="58" stroke="#c9a06a" stroke-width="13"/>
+    <path d="M-2 56 q10 4 20 2 l4 12 q-14 4 -26 -2 z" fill="#d98b3a"/>
+  </g>
+  <!-- RIGHT LEG (front) -->
+  <g transform="translate(372 340)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-28.3; -20.2; -10; -0.6; 4.4; -10; -22; -28.3"
+      keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;1"
+      dur="0.9s" repeatCount="indefinite" additive="sum"/>
+    <line x1="0" y1="0" x2="6" y2="58" stroke="url(#legF)" stroke-width="14"/>
+    <path d="M-3 56 q12 4 24 0 l4 14 q-16 5 -28 -2 z" fill="#f4a14c"/>
+  </g>
+  <!-- PELICAN -->
+  <g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -3; 0 0; 0 3; 0 0" keyTimes="0;0.25;0.5;0.75;1"
+        dur="0.9s" repeatCount="indefinite"/>
+      <!-- tail -->
+      <path d="M330 300 q-46 6 -66 30 q30 -4 52 -14 q-6 20 6 30 q18 -22 28 -46 z" fill="url(#wingF)"/>
+      <!-- body -->
+      <path d="M322 300 q-30 -24 -14 -62 q10 -26 40 -30 q14 -2 22 8 q6 -14 24 -12 q22 2 26 26 q26 6 30 34 q-6 26 -34 34 q-8 22 -34 26 q-30 4 -42 -18 q-14 4 -28 -6 z"
+            fill="url(#bodyF)" stroke="#c3ccd4" stroke-width="2"/>
+      <!-- wing -->
+      <path d="M346 286 q40 -14 86 6 q-14 26 -46 30 q-34 4 -50 -10 q6 -18 10 -26 z"
+            fill="url(#wingF)" stroke="#b4bdc6" stroke-width="2"/>
+      <g fill="#9aa4ad">
+        <path d="M418 296 l22 4 l-18 10 z"/>
+        <path d="M404 302 l22 5 l-18 11 z"/>
+        <path d="M388 306 l22 5 l-19 11 z"/>
+      </g>
+      <!-- neck -->
+      <path d="M330 250 q-16 -40 4 -74 q10 -18 28 -20 q6 16 -2 32 q-12 26 -4 56 z"
+            fill="url(#bodyF)" stroke="#c3ccd4" stroke-width="2"/>
+      <!-- head -->
+      <circle cx="352" cy="150" r="30" fill="url(#bodyF)" stroke="#c3ccd4" stroke-width="2"/>
+      <!-- eye -->
+      <circle cx="362" cy="142" r="6.5" fill="#2b2b2b"/>
+      <circle cx="364" cy="140" r="2" fill="#ffffff"/>
+      <!-- upper bill -->
+      <path d="M378 148 q60 -6 96 12 q-8 12 -26 14 q-50 4 -74 -6 z"
+            fill="url(#billF)" stroke="#c9791c" stroke-width="1.5"/>
+      <!-- bill hook -->
+      <path d="M474 160 q8 2 10 -6 q-2 8 -10 8 z" fill="#c9791c"/>
+      <!-- lower bill + pouch -->
+      <path d="M382 158 q54 6 88 20 q-6 16 -30 18 q-46 2 -62 -14 z"
+            fill="url(#pouchF)" stroke="#c46f1d" stroke-width="1.5"/>
+      <path d="M384 160 q46 8 82 20" fill="none" stroke="#b8641a" stroke-width="1.4"/>
+      <!-- crest -->
+      <path d="M330 126 q-8 -16 4 -26 q4 12 -2 22 z" fill="#cfd7dd"/>
+    </g>
+  </g>
+  <!-- motion lines -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <line x1="70" y1="300" x2="120" y2="300">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="0.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="55" y1="330" x2="110" y2="330">
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="0.6s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>

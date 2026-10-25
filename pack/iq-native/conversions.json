@@ -1,0 +1,1413 @@
+{
+ "schema": 1,
+ "tool": "tools/iq_pack.py",
+ "compat_bf16": true,
+ "source_shards": [
+  {
+   "name": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "size": 22749880640
+  }
+ ],
+ "tensors": [
+  {
+   "name": "blk.0.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ded94926088d58d7dc8a733e254e01bd3c9e916cc9b2d5ab252ddf8f725851dc"
+  },
+  {
+   "name": "blk.0.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "cef1a1eec15ca0482e60ab7ef7ef6833035240bef08d6ebf3016cd482ad14628"
+  },
+  {
+   "name": "blk.0.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "7480f03000cbc37d81333c0e97f72439cd194326345123ae155c7276939f822d"
+  },
+  {
+   "name": "blk.0.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "dd3ae7b9e1b4416f8025819a56f1b48f9792b0c19fba816208c72ce415e9d700"
+  },
+  {
+   "name": "blk.1.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "8034cfdbc66e4c731578133b0b5faf0a7946b20153b70f57fe27f8f43d03f3ae"
+  },
+  {
+   "name": "blk.1.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "df7be1207c7e2d5cc6b463761911c69fd0682bf1c84be05fa75e5f5690be3673"
+  },
+  {
+   "name": "blk.1.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "2760e94aeb545f9eb786c868b70458ecaa236fcb6b054494308d5c3f4eba5fdc"
+  },
+  {
+   "name": "blk.1.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "c3308d873c0d5a1ae49496ca69fffb1c33b785f316f415e0ae335e480362c6c5"
+  },
+  {
+   "name": "blk.2.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "41e0d032e654dec26ca0fab6ac807e36f40ca5a4f553b06b79cf11c580a11d7a"
+  },
+  {
+   "name": "blk.2.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "26ce6daaa58b6279a7768f3e1b2f864eea42c56418f20bd673931efac303fe6c"
+  },
+  {
+   "name": "blk.2.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "36cf8c5ba29dab2cd2493140d30a30e329653f54234354af89cb47acbe93c062"
+  },
+  {
+   "name": "blk.2.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "a439f56cc17c468b5094b18a6e23d3b5a8802a56b8ff6dece7f7501812f5ca3d"
+  },
+  {
+   "name": "blk.3.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "47321fe580386f00e1cd553f1d16d6b8083c394e1ed2432676a47e52919620fb"
+  },
+  {
+   "name": "blk.3.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "3e6361ba5a6a2f5575d87352cf3961e1e2ef7310a417904263ac48f577f52333"
+  },
+  {
+   "name": "blk.4.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "afcddd4c2752fc760603d1b969914c27f0a8312e3954412ddb80eae5b82c6ee2"
+  },
+  {
+   "name": "blk.4.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "bdcf7e0034d105d51c35b0ccdf09e51c4d49ed24a156a98daf0926affaaa57e7"
+  },
+  {
+   "name": "blk.4.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "1408eeea82f61fbe4cb0ccb7fa0288eae6440d965c0330d23ec9038490f152ac"
+  },
+  {
+   "name": "blk.4.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "0dc8418bb020fcf7521a61527eec9bfe3c31f9f8b18b32e72f6059c7acd0cc73"
+  },
+  {
+   "name": "blk.5.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "7090e304978a94fa5611444dd62d2d60d028a8fdefd0331b833ea63bd589f8ad"
+  },
+  {
+   "name": "blk.5.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "9ab1b83ea76220b6d776d13a7b19e4991564308e447ed51fa3804847a01c43d0"
+  },
+  {
+   "name": "blk.5.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "7fdda3314bc6a9aa2ca5ea263be30a06eaa93397bd705a192bc4a925ab230fb6"
+  },
+  {
+   "name": "blk.5.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "e18b1ab288584969ac9cf7ae06ae754a45e3b4856e1fc3b6e363ed04147a9496"
+  },
+  {
+   "name": "blk.6.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "06b7a01215492d29f94f6e5c79a4aacf24e7f134eb3d3d79b262910d8eda4722"
+  },
+  {
+   "name": "blk.6.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "99897a399dc8ba855456e278e23f8a842dc6893faa8589e063d0e5f381d717b5"
+  },
+  {
+   "name": "blk.6.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "8396da98deef257a7008ed088c8e1084278311c0fa21115fa7d4c5c2187b0f1e"
+  },
+  {
+   "name": "blk.6.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "f69132229456761c18ef6844bb5b65b525c2a1438d891adb24411773293ea5a4"
+  },
+  {
+   "name": "blk.7.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "908e854f1a7bc58559dcfc2f2e353777e9fc851b135b50a3f02e233d971f359b"
+  },
+  {
+   "name": "blk.7.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "a938101ee62aa2b14283831d808a3118baee16dc35d9b8d2472ea561ab97b298"
+  },
+  {
+   "name": "blk.8.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "001c52a2b2fba37f6da00bcbc5df704989ea8a6c2adcd17973895ff6fc9f7c48"
+  },
+  {
+   "name": "blk.8.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "3d528e2f7f7f63acb636a8027772357cecb9b534d8d457e742a6f3e222144cc6"
+  },
+  {
+   "name": "blk.8.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "7601298ba73eedcc5c003dc3a96a7e98ddd7570a4ffb36a26faa0044b71ac237"
+  },
+  {
+   "name": "blk.8.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "1500e6b3cedc1e397ba1ec86d8da8efff0970c24d2eed0d12dbca542ec8ea41c"
+  },
+  {
+   "name": "blk.9.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "51594421afe8fc1803aa0b2769ed48c8284b5471f149bab9415efbd2fe7c3698"
+  },
+  {
+   "name": "blk.9.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "79464c53360ff549f4c7248d23d599b354491953340a5f13d3de566adf61ce0d"
+  },
+  {
+   "name": "blk.9.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "c1fb207264ead65d5f662405ded2ef8c819d7e4b270ab1d5ac162b4bb6e5653f"
+  },
+  {
+   "name": "blk.9.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "6374b247429db9f9b67f0c7c29b8a4073a0cea8deb2727a48fd7709faeabd345"
+  },
+  {
+   "name": "blk.10.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "2be20c9567f0015931f1ce71f6280bfb02cf801103ab5b05126470df14e5a437"
+  },
+  {
+   "name": "blk.10.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "2117e2bf145f599cfb5e8ac8581fbc28873bf21283ff00a048c01b42d9be30a3"
+  },
+  {
+   "name": "blk.10.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "bd4acf0fb29b47113c7ed8d75709f0415f3fa14e8395f42143829c7515ed34d3"
+  },
+  {
+   "name": "blk.10.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "5cd71a60ee2814856fa42c5b6ca3ac479565713db925a7bf178340d580e279b3"
+  },
+  {
+   "name": "blk.11.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "0f077f0fed21b5a6917d91fec87ac4f6e00113c983ea4770d870918600d4232b"
+  },
+  {
+   "name": "blk.11.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "8b4b79deacb5f06203f06cc932b0c21ba010204edbf3fa3686da969a3847f1c2"
+  },
+  {
+   "name": "blk.12.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "e33a2c369fd0c3798d257a0b3b3c19651e1491ee824e3984b58002e6b0a5b1ee"
+  },
+  {
+   "name": "blk.12.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "38d3cacca2ad9a4640768fd5b2fec402597465d836b0c7adce6e0cfe800dfbfa"
+  },
+  {
+   "name": "blk.12.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "aa09c94918da96845a4497768774bdddeef2d551167262332ff54eb39d5650cf"
+  },
+  {
+   "name": "blk.12.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "5ed3cc18d0c5432923aaaaf3d51e4788b643bc4dd95c18495a89bb11f27d8297"
+  },
+  {
+   "name": "blk.13.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "2fa70e7411625201af601f65926d5af3275552f82491dedd536e661b106dffbd"
+  },
+  {
+   "name": "blk.13.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "24b245a8d39c0d74347cd96f1c774f8e832c1e56698ecdcc8b59fd594c330fd3"
+  },
+  {
+   "name": "blk.13.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "58351820ad1d912aea3d5bce17a14a5a5d956f1cf12e4f9f8f818e72c843f4b7"
+  },
+  {
+   "name": "blk.13.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "4cea53d8cf54cb72fe18cbb1cc2523fdc407705b5daa30d18adf2e538707852c"
+  },
+  {
+   "name": "blk.14.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "c99f206786d584dcd145c15de4446ba8c119a0f49c889f7513c95c3aff2c89de"
+  },
+  {
+   "name": "blk.14.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "d6191511d3872dd532c3cd8e5d7cf83aef4bc97e9fae705ba91a64f62ef9d588"
+  },
+  {
+   "name": "blk.14.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "86a6a6f1886a409d6cc678a9b282dd12d12eda2e489628a18decd037fba8babe"
+  },
+  {
+   "name": "blk.14.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "cbfc0df2f922d4305b2a744455969d8ff202ef34c2fe14d6abf1ba7e1c7530c8"
+  },
+  {
+   "name": "blk.15.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "0edc3fc16beb1392aab37e4fb2c5f497322787757554c6e45520566bb8a89b35"
+  },
+  {
+   "name": "blk.15.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "15a0bd4bccad906fc9a852fdfd2e4a777eb64fc9c0061381c4a12fa855c363c3"
+  },
+  {
+   "name": "blk.16.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "0b05f6088ca4bb6695c01f079270f8621261b8716057c3da6d6fd58edb08c676"
+  },
+  {
+   "name": "blk.16.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "1dd34197eeb0f7e343bfdaf93d82e3ea1667b02237e2b951e40512c01c61f7fb"
+  },
+  {
+   "name": "blk.16.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ff82158d27a257cc3931a26e010bffe3e4b55cc80db54cb41edf4c1dfbe98aa4"
+  },
+  {
+   "name": "blk.16.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "689dc989d6c356a80ef7c4128c523c482d4bc914f1c203aaaefdb4dd2d315ce6"
+  },
+  {
+   "name": "blk.17.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "074cc101219f199a581e90c3abf05060eacb4d8fa2041c56c29e602c8b7c6740"
+  },
+  {
+   "name": "blk.17.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "4f55ae6e41e13a48a75daf4375db35e659f23b0c5df9aef97b1408422950db81"
+  },
+  {
+   "name": "blk.17.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "42085f46e4fa8736877d629264cef7e4eed6c1302e1d0abfb12fe8c4bf362f2f"
+  },
+  {
+   "name": "blk.17.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "abb9933e30913b58230d69930d44aef3ddf4ef41f9b6e3aadbe91f636b5c256c"
+  },
+  {
+   "name": "blk.18.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ff88f644ce4db41b8427ca83d15dd564f9117a8291033c229ade62b9afcd0482"
+  },
+  {
+   "name": "blk.18.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "9135098f90c423c7f33a6cc9333ad7f14062ca6701c7b50b8920628acfd8630b"
+  },
+  {
+   "name": "blk.18.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "9cc6083832c79eefe63c2e2be269bcd865f54bd7c755db1db01908ec5afcc5a4"
+  },
+  {
+   "name": "blk.18.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "b5f26594ee32c54ced72a4d8fa6e2184f2d3345351f5da2f070cedaf3dc7c6d2"
+  },
+  {
+   "name": "blk.19.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "593bff5c7474b32fb8486b61e9ba51107d68e05db5e4ee5c7a6006904f6dac4a"
+  },
+  {
+   "name": "blk.19.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "01f71f48b1a475b62a8c15eeb63e2f2f708f31d9254e308d5a83001d73c2ee05"
+  },
+  {
+   "name": "blk.20.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "34bfccfb4f8d4abdd737edfe75220a6fd4a8ce2f9211dc475f67efb494d27d16"
+  },
+  {
+   "name": "blk.20.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "50913bf5950c88d4114714cf48c9183753825e7aedc872ee5a11b068e8bae88d"
+  },
+  {
+   "name": "blk.20.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "8dbea44cb451ba1bb4efa875ecec84a16e42f20c64ae1682787266a20f1fced9"
+  },
+  {
+   "name": "blk.20.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "f49a575e63f311c1a954fff4dca8efb63ef2d67253c0a78e7101dc9befdab561"
+  },
+  {
+   "name": "blk.21.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "8d2c94e89ba08c9aa634dafc0eb802b9df6e9b34ce2df1118dc52a1ba5ca56cd"
+  },
+  {
+   "name": "blk.21.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "d833d09fa6eff1cb093b4d92435ed7602eacfec43c872a1179c2857991bfbbbf"
+  },
+  {
+   "name": "blk.21.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "05c5062712b6a3a0b459e1950eefd8a49f2ef0d9254e01a76861edf78760beba"
+  },
+  {
+   "name": "blk.21.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ffee3445ce79c77b2f65c8e57230b2dfc949be8d8afe96fd86f5de777b857910"
+  },
+  {
+   "name": "blk.22.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "828887f859fa415cfa83d5b1722df40663ec0056c0bf8f8341a37127cf42d653"
+  },
+  {
+   "name": "blk.22.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "52e062de67527e6f20df72827f49e5b98c788c34727aac314263b66e8e5dad2e"
+  },
+  {
+   "name": "blk.22.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "2ab8893a75ab7b6ce8dacbf78f8a45441d285d329a6247357d333fa5b0d59afd"
+  },
+  {
+   "name": "blk.22.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "69a662af940c870f98e7584ec2f5f2303ab9437209ad96788b18ff061fc40ec2"
+  },
+  {
+   "name": "blk.23.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "d03565f7065b932789459bc65e0af8a5d45f98112ffd0f4d9df0abdb260c2d35"
+  },
+  {
+   "name": "blk.23.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "73990e581b606a77b11d3b4d4be0d61121ee724f3f15532d88b08863a7ec40af"
+  },
+  {
+   "name": "blk.24.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "8dadb1773bd453fe49c8fc60fc591dcc18c5419b443cea0ae59e8c10b465e18a"
+  },
+  {
+   "name": "blk.24.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "e4efa817e2dd6012ab55106e947abe64ca81ac7f4fd03a6d911ae5ecdb5565fe"
+  },
+  {
+   "name": "blk.24.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "4f1750acc9e38f632578b50fc2a6e673bb1aa51d755d405306e80f0f1e4ecfe3"
+  },
+  {
+   "name": "blk.24.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "aca44b71a1b388546a3ce54318b15438ef27d00e3c74fe3a1555ef1ad0a41c3a"
+  },
+  {
+   "name": "blk.25.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "dc50e8edad8b3c288456fccabcb1cfd74e100d543c23dd8a8618241e38531454"
+  },
+  {
+   "name": "blk.25.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "02f2f3113d3e31c8a4bb70b3d60d9d497cc8248db5356eb28427ec551a6f600c"
+  },
+  {
+   "name": "blk.25.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "6e89822db0ab58057249e6dd8934dfac50aa882704480ac03649cebe1a951cf6"
+  },
+  {
+   "name": "blk.25.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "6fdf2457075b2d1847519ca3b063cff993d7b31e467452bf52b127cba5b5beb4"
+  },
+  {
+   "name": "blk.26.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "cb8d39044aee73b397639cbd88c0179976269b88171e535f63d23019f468eb0d"
+  },
+  {
+   "name": "blk.26.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "96b8ac146e5e105f1056a91af2587a90a51b347c804681c0170316aa393c1842"
+  },
+  {
+   "name": "blk.26.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "afb61083c0cf562b27715ddbdd0e19f1e63a867293bfc90f8b22774d981f0add"
+  },
+  {
+   "name": "blk.26.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "008ee959e2797a8a8912a91d767f59352cd17b1dc661c38030e4ddcb91ec9ba6"
+  },
+  {
+   "name": "blk.27.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "1d7a2111b5a6f06ef9c5f9865ae23255c2d69795132658e27f4944d80db86521"
+  },
+  {
+   "name": "blk.27.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "6e750cb3cbe2ae7d12149d2521f358caf0343f7d129e8be2cae9977c82123663"
+  },
+  {
+   "name": "blk.28.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "89a2dff906946784688e615d6518ea7e8e2c2f5590826c62bb3c8e01bf66e9fc"
+  },
+  {
+   "name": "blk.28.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "bec3ebb15a6571e3b6bc5e4b307f5afa9bb5dbb4092a2e6e68fb04d636a307b9"
+  },
+  {
+   "name": "blk.28.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ce1c68735b0bbf9a321d7f4754a12cb2814e54b820312a6da51359a1f15ae6e4"
+  },
+  {
+   "name": "blk.28.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "4d28d90d611d37ab6bed0c403f365d4d8fb9f62bcfbf6601bd76470dc5407c9a"
+  },
+  {
+   "name": "blk.29.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ffeaced6d96771a99a55bfcae4fcc19468e69d5632ff27f3842181328cbb6ade"
+  },
+  {
+   "name": "blk.29.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "cd2e11f7eb3443489d50cda1daa612b24080e93135a5694751c3a9709453725b"
+  },
+  {
+   "name": "blk.29.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "6276676bf62e456b950e8a16b2527be23ffde7351eff24730f081a91915d7066"
+  },
+  {
+   "name": "blk.29.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "9047ffb1f3b0ec673b1bb608ad63c64d0673e69babe142ff19f7aed2684b15d9"
+  },
+  {
+   "name": "blk.30.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "0f8424add574867ebf88ceb57df6a97047fe424b9b359d33036594863cc9138e"
+  },
+  {
+   "name": "blk.30.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "2274b2718993592fd0f49dacd219712d189a96f5ec665f12f8fe42ea8f42859d"
+  },
+  {
+   "name": "blk.30.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ab60cab0cdf9c9926c5c4635fe2a0b7c59d3b06433bc8ae5001639b76fb7829e"
+  },
+  {
+   "name": "blk.30.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ade4d987440e3659eb5de81674bcace3699e9b06bf69502641f32a7803557e8a"
+  },
+  {
+   "name": "blk.31.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ce4371a53bc687b5143d684d7f1a739994edeab83c18069c4a4954947a5f14f9"
+  },
+  {
+   "name": "blk.31.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "beb70e82a28bf4f4cccde6e0989321dcf7b5d8f275a62be9ecf5505c0ec82642"
+  },
+  {
+   "name": "blk.32.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "c77a1b1d1c01ee1b83ce676d2dbe0de6688127ee67b651ebd40144f741cfafd1"
+  },
+  {
+   "name": "blk.32.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "7ce04f43b54603836f3339b295cb82eff911b6e40f7fe47092674d6c0c4ff9b9"
+  },
+  {
+   "name": "blk.32.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "a7fc6ce84f6a8441bebd8a6794a8bd1f26c558a2db07a0a2461ac862c55794c3"
+  },
+  {
+   "name": "blk.32.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "c36e5ab163b85f329da752ec35a23affe31433093298392a712750b65fcac645"
+  },
+  {
+   "name": "blk.33.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "5e924343a0dd37f02df49421613959faa3fbff2980c991b1c6925f445cc1b0a7"
+  },
+  {
+   "name": "blk.33.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "3212c33d484fce366fcf2613a4b80a1c214e8590bb32feee0f11231b62bbbd78"
+  },
+  {
+   "name": "blk.33.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "6e188afde4843d2cbb470b9083eac7421b13106c2f19ff51579c64684780c042"
+  },
+  {
+   "name": "blk.33.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "ebd5952523050e856f3ab53bb46760235f439331f4d12840331a19e3a20cd286"
+  },
+  {
+   "name": "blk.34.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "4719d2880898f9711cae851a2e5f7b6ffd6b83e175d4fadd132411bd6604152e"
+  },
+  {
+   "name": "blk.34.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "8fe819c0ef0d8db56edbd66f0508624991e43aac57d35a66699e20adf45c3186"
+  },
+  {
+   "name": "blk.34.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "36704ba97ac882b4b20f39fc98904d9b2ca2b41250f9c247633318e2387368e6"
+  },
+  {
+   "name": "blk.34.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "232a9765d7712954a20b7a5da2f72e8641d08b56e8c9e58392183cee05c5b3e6"
+  },
+  {
+   "name": "blk.35.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "6f3b530911915b4e8372a5cc3314c665e27c83acf0471a8fd299ecd8e7072b1c"
+  },
+  {
+   "name": "blk.35.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "dd0d8cefd15ba4b717ca7841fd8922a6af88c9dfa5862160265ae1cce052aca6"
+  },
+  {
+   "name": "blk.36.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "c093f1267459eaee6a507ea95ac38214729ebfe2b069066c293328976bef7bb1"
+  },
+  {
+   "name": "blk.36.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "4ce75b6699f23a530c674acf519a0136b23ad09e7b3132ffa7cbb084f79e04c2"
+  },
+  {
+   "name": "blk.36.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "81841d310082c41c1677b43ca22ed34cdba1dcd373bf6a70fae78e1c0f2153df"
+  },
+  {
+   "name": "blk.36.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "4034ff61581345e2be59aa372dfac9b0e53441e485c3551bc056cc7a1bf8ea78"
+  },
+  {
+   "name": "blk.37.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "a725e3c2a1763ffd651d3334e341ccc0ff603ce4224b09bb337cc87c89a01d7b"
+  },
+  {
+   "name": "blk.37.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "2cae879e3d227d9b58378ec0c580c6787a55e5aee9eac6fd2f958de090b3f79b"
+  },
+  {
+   "name": "blk.37.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "e145ae7ca1549a14d766c9896e6a67a26e1119fa19552715e8aec7d586870d80"
+  },
+  {
+   "name": "blk.37.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "7ce88ef5e1fe17bada81c122439dce4fc56d6e895bfc2b68f110638a54be80c1"
+  },
+  {
+   "name": "blk.38.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "e8fb2b0e0b7ab06ea5f1e6be70e36b745ab9f506157f2b471e287508d4799ae7"
+  },
+  {
+   "name": "blk.38.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "5b9b5319bbc57b7fc35b01afaf33ed952206fe22e8f521e24eb317b62404fc6b"
+  },
+  {
+   "name": "blk.38.ssm_alpha.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "59e81dda029ff878542f387eb49d85861ee3461320a5a60b6cc0b200f98ec5b9"
+  },
+  {
+   "name": "blk.38.ssm_beta.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "d9f9fca4bbe9b3e1bef624cec4f5f7d58dddd611c230b3fcf37ea6ce3aa73e67"
+  },
+  {
+   "name": "blk.39.ffn_gate_inp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "aba55352ea0547680ebba9dee603f4f9189ddc50121b06f161034d59485cc650"
+  },
+  {
+   "name": "blk.39.ffn_gate_inp_shexp.weight",
+   "shard": "Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf",
+   "src_type": "F32",
+   "dst_type": "BF16",
+   "method": "f32->bf16: the values are BF16's (low 16 bits zero)",
+   "exact": true,
+   "max_abs_err": 0.0,
+   "source_sha256": "95ecd910babfb906d235cf0756a95d1f1e8856e11371f193e859f4e18784c1c9"
+  }
+ ]
+}

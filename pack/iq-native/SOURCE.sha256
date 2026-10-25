@@ -1,0 +1,23 @@
+# PROVENANCE of this pack.  tools/iq_pack.py writes NO manifest, so this file is the ONLY thing that binds
+# the pack to a byte-exact source.  Red line R2 exists because of a known incident: a 21.9 GB file whose SIZE
+# was correct byte-for-byte and whose HASH was wrong - undetected, it cost a whole round of porting work.
+#
+# BEFORE TRUSTING ANY READING TAKEN FROM THIS PACK, re-check the source:
+#     Get-FileHash -Algorithm SHA256 E:\llama-models\Cyber-Tiel-Coder-35B-A3B\Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf
+# and compare against the sha256 below.  A mismatch means a different artifact: every number measured on this
+# pack is void.
+
+sha256  0BBCF3CC9BE4C976BAD20E641BAF629DAD9C178D39EBDC9CD72129179943C06A
+bytes   22749880640
+path    E:\llama-models\Cyber-Tiel-Coder-35B-A3B\Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf
+
+# How it was made (2026-10-08):
+tool    E:\strata-v0139\tools\iq_pack.py --compat-bf16
+note    iq_pack.py was MODIFIED on 2026-10-08: nextn_layers() now excludes the MTP block from the expert
+        table (the file's block_count 41 counts blk.40, the engine's n_layers is the 40-layer trunk).
+        Diff archived at E:\strata-v0139\_backups\20261008-223351\tools-iq_pack.py.diff
+        (2902 B);  git checkout -- tools/iq_pack.py  restores the original.
+verify  index.txt: 630 tensors, 260 served natively, arena 0.05 GiB
+        conversions.json: 142 tensors converted, 142 exact, 0 rounded, max |err| 0
+        native_experts.txt: 41 lines = 1 header + 40 TRUNK layers (last data row starts with "39 ")
+        dense.bin 55,706,112 B; experts are NOT in the pack -- the engine reads them from the GGUF itself

@@ -1,0 +1,11 @@
+Put the model file in THIS folder (models\).
+
+  Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf
+  size   : 22,749,880,640 bytes
+  sha256 : 0BBCF3CC9BE4C976BAD20E641BAF629DAD9C178D39EBDC9CD72129179943C06A
+  source : https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP
+
+Check your download with:
+  powershell -Command "Get-FileHash -Algorithm SHA256 .\models\Cyber-Tiel-Coder-35B-A3B-MTP-UD-Q4_K_XL.gguf"
+
+Any *.gguf in this folder is picked up automatically by run.cmd.

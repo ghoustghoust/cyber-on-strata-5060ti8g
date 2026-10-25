@@ -1,0 +1,16 @@
+# 大体积二进制：模型与引擎（获取方式见 README「致谢」）
+models/*.gguf
+engine/
+*.dll
+*.exe
+
+# 运行产物
+__pycache__/
+*.pyc
+logs/*.log
+profile/serve-learned.bin
+last-run.log
+serve-api.log
+
+# 本地素材
+smoke-prompt.txt

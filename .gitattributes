@@ -1,0 +1,5 @@
+*.bat -text
+*.png binary
+*.bin binary
+*.svg text
+*.md text
